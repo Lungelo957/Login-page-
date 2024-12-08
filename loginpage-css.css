@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif; /* Sets a clean and professional font */
+    background-color: #f0f0f0; /* Light gray background for a soft look */
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */
+    height: 100vh; /* Makes the body cover the full viewport height */
+    margin: 0; /* Removes default margins for consistent centering */
+    padding: 20px; /*add space around the entire body*/
+}
+
+div {
+    background-color: white; /* Adds a clean white background for the form */
+    padding: 20px 40px; /* Adds space inside the container for neatness     */
+    border-radius: 10px; /* Rounds the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    text-align: center; /* Centers text inside the container */
+    width: 300px; /* Sets a fixed width for the form */
+}
+
+h1 {
+    color: #333; /* Sets a dark gray color for readability */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+label {
+    display: block; /* Ensures labels appear on their own line */
+    font-weight: bold; /* Makes the text bold for emphasis */
+    margin-top: 10px; /* Adds space above each label */
+    color: #555; /* Sets a medium gray color for subtle contrast */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%; /* Makes the input fields span the entire width of the container */
+    padding: 10px; /* Adds space inside the input fields for better readability */
+    margin-top: 5px; /* Adds some space above the input field */
+    margin-bottom: 15px; /* Adds space below the input field */
+    border: 1px solid #ccc; /* Sets a light gray border for the input fields */
+    border-radius: 5px; /* Rounds the corners of the input fields */
+}
+
+button {
+    background-color: orange; /* Sets an orange background for the button */
+    color: white; /* Makes the text white for contrast */
+    border: none; /* Removes the default border */
+    padding: 10px 20px; /* Adds space inside the button */
+    font-size: 16px; /* Sets the font size for the button text */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    width: 100%; /* Makes the button span the full width of the container */
+}
+button:hover {
+    background-color: darkorange; /* Changes the background to a darker orange on hover */
+}
+
+a {
+    color: orange; /* Sets the link color to orange to match the button */
+    text-decoration: none; /* Removes the default underline from the link */
+    font-size: 14px; /* Adjusts the font size to make it slightly smaller */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds an underline effect when hovering over the link */
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: orange; /* Changes the border color to orange when focused */
+    outline: none; /* Removes the default outline on focus */
+}
+
+footer {
+    text-align: center; /* Centers the text in the footer */
+    margin-top: 20px; /* Adds space above the footer */
+    font-size: 14px; /* Sets a smaller font size */
+    color: #777; /* Sets a light gray color for the text */
+}
+
+footer p {
+    margin-top: 10px; /* Adds space above the Register link */
+}
+
+footer a {
+    color: orange; /* Matches the link color with the button */
+    text-decoration: none; /* Removes the underline from the link */
+    font-size: 14px; /* Keeps the font size consistent with other links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adds underline on hover for interactivity */
+}
